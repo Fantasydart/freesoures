@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="518e9a6e-9915-491e-b1ec-de6cb3d36e16" name="FTP Bazinga" url="http://freesoures.ktnet.kg/">
+        <fileTransfer host="213.145.129.23" port="21" rootFolder="/httpdocs/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

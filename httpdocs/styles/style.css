@@ -1,0 +1,115 @@
+body {
+    min-width: 800px;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    background-color: black;
+    background-image: url(/images/Barbershop-index.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 2560px auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main-header {
+    padding: 0;
+    height: 72px;
+    margin: 0 auto;
+
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    min-height: 20px;
+    padding: 0;
+    height: 72px;
+
+    background-color: rgba(59, 255, 0, 0.1);
+}
+
+.main-navigation {
+    float: left;
+    position: relative;
+    min-height: 20px;
+
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.user-block {
+    float: right;
+    min-height: 20px;
+    text-align: right;
+    position: relative;
+
+
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.main-navigation li,.login{
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: top;
+    padding: 0 20px;
+}
+
+ul{
+  list-style: none;
+}
+.main-navigation ul {
+    padding: 0;
+    margin: 0;
+}
+.login{
+  position: relative;
+    min-width: 70px;
+}
+.main-header a{
+    display: inline-block;
+    color: white;
+    font-family: "PT Sans Narrow",Arial,sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 72px;
+    font-size: 14px;
+    vertical-align: top;
+    line-height: 72px;
+    font-weight: 800;
+}
+.main-header li:hover,.login:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.main-container {
+    margin: 50px auto;
+}
+.active a{
+  position: relative;
+}
+.active a:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: calc(100% - 30px);
+  background-color: #fff;
+}
+.login:after{
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 16px;
+  bottom: 28px;
+  left: 33px;
+  background-image: url(/images/login_arrows.png);
+}
+
+.logo{
+
+}
