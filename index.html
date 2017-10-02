@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Барбершоп «Бородинский»</title>
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="styles/normalize7.0.css">
+  <link rel="stylesheet/less" type="text/css" href="less/style.less">
+  <script src="less/less.min.js" type="text/javascript"></script>
+  <script src="scripts/jquery-3.2.1.js" type="text/javascript"></script>
+</head>
+
+<body class="main-body">
+  <header class="main-header">
+    <div class="container clearfix">
+      <nav class="main-navigation">
+        <ul>
+          <li class="active">
+            <a href="index.html">Главная</a>
+          </li>
+          <li>
+            <a href="#info">Информация1</a>
+          </li>
+          <li>
+            <a href="#news">Новости</a>
+          </li>
+          <li>
+            <a href="price.html">Прайс-лист</a>
+          </li>
+          <li>
+            <a href="shop.html">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="user-block">
+        <a href="#" class="login">Вход</a>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container main-container clearfix">
+    <div class="login-form" id="abcd">
+      <form class="login-form-action" action="/echo" method="post">
+        <div class="login-form-container">
+          <h2 class="login-form-title">Личный кабинет</h2>
+          <p class="login-form-hidden-text">Введете пожалуйста свой логин и пароль<br>Если вы забыли пароль</p>
+          <input class="login-input" type="text" name="login" id="input" placeholder="Логин">
+          <label for="input"></label>
+          <div class="icon i-login"></div>
+          <input class="password-input" type="text" name="password" id="password" placeholder="Пароль">
+          <label for="password"></label>
+          <div class="icon i-password"></div>
+          <div class="login-form-forget">
+            <input type="checkbox" name="log-form-forget" id="cb-forget">
+            <label for="cb-forget">Запомните меня</label>
+            <a class="forget" href="#">Я забыл пароль</a>
+          </div>
+          <input class="btn-login" type="submit" name="login-button" value="войти">
+        </div>
+      </form>
+
+      <div class="cross-close" id="close-x"></div>
+    </div>
+
+    <figure class="logo">
+      <a href="index.html">
+        <img src="/images/logo-barbershop.png" alt="Barbershop Borodinski">
+      </a>
+    </figure>
+    <div class="features-row clearfix">
+      <section class="features-item">
+        <a name="info"></a>
+        <h2 class="features-title">Быстро</h2>
+        <p>Мы делаем свою работу быстро! Два часа<br> пролетят незаметно и вы - счастливый<br> обладатель стильной стрижки-минутки!</p>
+      </section>
+      <section class="features-item">
+        <h2 class="features-title">Круто</h2>
+        <p>Забудьте, как вы стриглись раньше. <br>Мы сделаем из вас звезду футбола или кино! <br>Во всяком случае внешне.</p>
+      </section>
+      <section class="features-item">
+        <h2 class="features-title">Дорого</h2>
+        <p>Наши мастера - профессионалы своего дела и<br>не могут стоить дешево. К тому же, разве цена<br> не дает определенный статус?</p>
+      </section>
+    </div>
+    <div class="index-content clearfix">
+      <section class="content-column-left">
+        <a name="news"></a>
+        <h2 class="content-column-title">Новости</h2>
+        <ul class="news-preview">
+          <li>
+            <a href="#">Нам наконец завезли Ягермайстер! Теперь вы<br> можете пропустить стаканчик во время стрижки</a><br>
+            <time datetime="2013-09-25">25 сентября</time>
+          </li>
+          <li>
+            <a href="#">В нашей команде пополнение, Борис «Бритва»<br> Стригунец, обладатель множества титулов и<br> наград пополнил наши стройные ряды</a><br>
+            <time datetime="2013-09-19">19 сентября</time>
+          </li>
+        </ul>
+        <a href="#" class="btn">Все новости</a>
+      </section>
+      <section class="content-column-right">
+        <h2 class="content-column-title">Фотогаллерея</h2>
+        <!--Css style gallery-live added with JS-->
+        <div class="gallery">
+          <figure class="gallery-content">
+            <a href="/images/img1-gallery.png" class="">
+              <img src="/images/img1-gallery.png" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img2-gallery.png">
+            <img src="/images/img2-gallery.png" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img3-gallery.png">
+            <img src="/images/img3-gallery.png" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img4-gallery.png">
+            <img src="/images/img4-gallery.jpg" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img3-gallery.png">
+            <img src="/images/img3-gallery.png" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img4-gallery.png">
+            <img src="/images/img4-gallery.jpg" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img3-gallery.png">
+            <img src="/images/img3-gallery.png" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img4-gallery.png">
+            <img src="/images/img4-gallery.jpg" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img3-gallery.png">
+            <img src="/images/img3-gallery.png" width="286" height="164" alt="">
+            </a>
+            <a href="/images/img4-gallery.png">
+            <img src="/images/img4-gallery.jpg" width="286" height="164" alt="">
+            </a>
+          </figure>
+          <!--Кнопки добавлены с помощью JS-->
+          <button class="btn gallery-prev hidden">Назад</button>
+          <button class="btn gallery-next hidden">Вперед</button>
+        </div>
+      </section>
+    </div>
+    <div class="index-content clearfix">
+      <section class="content-column-left">
+        <h2 class="content-column-title">Контактная информация</h2>
+        <p>
+          Барбершоп «Бородинский»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br> Телефон: +7 (495) 666-02-66
+        </p>
+        <p>
+          Время работы:<br> пн — пт: с 10:00 до 22:00<br> сб — вс: с 10:00 до 19:00
+        </p>
+        <a href="#" class="btn how-road">Как проехать</a>
+        <a href="#" class="btn feed-back">Обратная связь</a>
+      </section>
+      <section class="content-column-right">
+        <h2 class="content-column-title">Записаться</h2>
+        <p>Укажите желаемую дату и время и мы свяжемся<br> с вами для подтверждения брони</p>
+        <form id="entry" action="#" method="post">
+          <input type="date" name="datetime-local" min="" value="" max="2019-01-01" placeholder="Дата">
+          <input type="time" name="time" value="" placeholder="Время">
+          <input type="text" name="name" value="" placeholder="Ваше имя">
+          <input type="tel" name="phone" value="" placeholder="Телефон">
+          <button type="submit" class="btn">Отправить</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <footer class="main-footer">
+    <div class="container clearfix">
+      <section class="footer-contacts">
+        BarberShop «Borodinski»<br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br> Телефон: +7 (495) 666-02-66<br><a href="#">Как нас найти?</a>
+      </section>
+      <section class="footer-social">
+        <p>Давайте дружить!</p>
+        <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+        <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+        <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+      </section>
+      <section class="footer-copyright">
+        <p>Дизайн сайта:</p>
+        <a href="#" class="btn">htmlacademy.ru</a>
+      </section>
+    </div>
+  </footer>
+  <script src="/scripts/script.js"></script>
+</body>
+
+</html>
